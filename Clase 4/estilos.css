@@ -1,0 +1,62 @@
+/* Seleccionar todos los elementos */
+* {
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+/* Selector de tipo clase */
+.titulo {
+    color: #045052;
+    font-size: 24px;
+    margin-top: 13px;
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 40px;
+    text-align: center;
+    color: #031341;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Selector de clase cuando contiene un elemento */
+.titulo-principal > small {
+    color: teal;
+}
+
+/* Selector de tipo identificador unico */
+#contenedor {
+    background-color: #f2fcfd;
+    padding: 100px;
+    
+    font-size: 16px;
+}
+
+.fondo {
+    background-color: #48A9A6;
+}
+
+/* Selector para etiquetas especificas */
+p {
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Selector para grupos de etiquetas */
+p,  li {
+    letter-spacing:0;
+}
+
+/* Selector para elementos dentro de otro elemento */
+li > a {
+    padding: 10px;
+}
+
+
+ /* Selector del primer hermano de tipo p de un elemento div */
+div + p {
+    width: 300px;
+    height: 300px;
+}
