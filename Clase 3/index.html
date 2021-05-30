@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="mailto:amabreu@itla.do.edu">
+        <div>
+            <label for="email">
+                E-mail
+            </label>
+            <input 
+                type="email" 
+                name="email"
+                id="email"
+                title="Ingrese su email"
+                placeholder="Ingrese su email"
+                >
+    
+        </div>
+        <div>
+            <label for="paises">
+                Pais
+            </label>
+            <select name="paises" id="paises">
+                <option value="1">Republica Dominicana</option>
+                <option value="1">Cuba</option>
+                <option value="1">Guatemala</option>
+            </select> 
+        </div>
+        <div>
+            <label for="subject">
+                Subject
+            </label>
+            <input
+            type="text" 
+            name="subject"
+            id="subject"
+            >
+        </div>
+
+         
+        <div>
+            <label for="body">
+                Mensaje
+            </label>
+            <textarea 
+            name="body" 
+            id="body" 
+            rows="10"></textarea>
+        </div>
+
+        <input type="submit" value="Enviar correo">
+    </form>
+</body>
+</html>
