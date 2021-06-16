@@ -1,6 +1,10 @@
 /* importar fuentes desde google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
+* {
+    font-family: 'Viaoda Libre', cursive;
+}
+
 /* Paleta de colores */
 :root {
     --color-principal-fuentes:  #fffbc4;
